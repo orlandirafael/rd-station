@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="14" failures="0" name="com.rdstation.CustomerSuccessBalancingTest" time="0.068" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.boot.library.path" value="C:\dev\runtime\jdk-11.0.11\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\dev\code\study\rdstation\challenge"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\dev\code\study\rdstation\challenge"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\RAFAEL~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\dev\ide\jee-2021-03\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf14290935624052590956.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\dev\runtime\jdk-11.0.11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\dev\ide\vscode\bin;C:\dev\tools\git\cmd;C:\dev\tools\tortoisegit\bin;C:\dev\runtime\jdk1.8.0_291\bin;C:\dev\tools\apache-maven-3.6.0\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\dev\runtime\nodejs-10.24.1\;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Rafael Mandacaru\AppData\Local\Microsoft\WindowsApps;C:\Users\Rafael Mandacaru\AppData\Roaming\npm;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Rafael Mandacaru"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Rafael Mandacaru"/>
+    <property name="java.class.path" value="C:\dev\tools\apache-maven-3.6.0\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -gs C:\dev\tools\apache-maven-3.6.0\conf\settings.xml -s C:\dev\tools\apache-maven-3.6.0\conf\settings.xml install"/>
+    <property name="java.home" value="C:\dev\runtime\jdk-11.0.11"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\dev\tools\apache-maven-3.6.0"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.rdstation.CustomerSuccessBalancingTest" name="testScoreOutOfRangeCustomerSuccess" time="0.009"/>
+  <testcase classname="com.rdstation.CustomerSuccessBalancingTest" name="testIdOutOfRangeCustomer" time="0"/>
+  <testcase classname="com.rdstation.CustomerSuccessBalancingTest" name="testCSNiveisIguais" time="0"/>
+  <testcase classname="com.rdstation.CustomerSuccessBalancingTest" name="testScoreOutOfRangeCustomer" time="0"/>
+  <testcase classname="com.rdstation.CustomerSuccessBalancingTest" name="testOutOfLimitCustoms" time="0.039"/>
+  <testcase classname="com.rdstation.CustomerSuccessBalancingTest" name="testIdOutOfRangeCustomerSuccess" time="0"/>
+  <testcase classname="com.rdstation.CustomerSuccessBalancingTest" name="scenario1" time="0.004"/>
+  <testcase classname="com.rdstation.CustomerSuccessBalancingTest" name="scenario2" time="0"/>
+  <testcase classname="com.rdstation.CustomerSuccessBalancingTest" name="scenario3" time="0.015"/>
+  <testcase classname="com.rdstation.CustomerSuccessBalancingTest" name="scenario4" time="0"/>
+  <testcase classname="com.rdstation.CustomerSuccessBalancingTest" name="scenario5" time="0"/>
+  <testcase classname="com.rdstation.CustomerSuccessBalancingTest" name="scenario6" time="0"/>
+  <testcase classname="com.rdstation.CustomerSuccessBalancingTest" name="scenario7" time="0"/>
+  <testcase classname="com.rdstation.CustomerSuccessBalancingTest" name="testOutOfLimitCustomSuccess" time="0.001"/>
+</testsuite>
